@@ -1,0 +1,43 @@
+
+body{
+    min-width: 450px;
+}
+
+
+h1{
+    margin-bottom: 25px !important;
+}
+.bg-1{
+    background-color: whitesmoke;
+    border-bottom: 0.25px solid silver;
+}
+    
+.bg-2{
+    background-color: rgb(218, 218, 218);
+    border-bottom: 0.25px solid silver;
+
+}
+.bg-1,.bg-2{
+    padding: 25px;
+}
+
+body{
+    height: 100%;
+}
+footer{
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    padding: 5px;
+}
+footer a{
+    margin: 10px;
+}
+
+footer a i{
+    color: whitesmoke;
+}
+
+footer a i:hover{
+    color: #33666C;
+}
