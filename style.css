@@ -44,11 +44,7 @@ footer a i{
 footer a i:hover{
     color: #33666C;
 }
-.home{
-    text-align: center;
-    display: table;
-    width: 100%;
-}
+
 .typewriter {
     font-family: Courier, monospace;
 	display: inline-block;
