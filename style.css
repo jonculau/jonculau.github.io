@@ -53,8 +53,8 @@ footer a i:hover{
     color: white;
     width: 100%;
     display: table;
-    padding-bottom: 25vh;
-    padding-top: 25vh;
+    padding-bottom: 23vh;
+    padding-top: 23vh;
 }
 
 .typewriter-text {
@@ -70,7 +70,7 @@ footer a i:hover{
     animation-direction: normal;
     animation-fill-mode: both;
     white-space: nowrap;
-    font-size: 50px;
+    font-size: 5vw;
     font-weight: 700;
     box-sizing: border-box;
     padding: 0px;
@@ -85,7 +85,7 @@ p.typewriter-text {
     animation-direction: normal;
     animation-fill-mode: backwards;
     white-space: nowrap;
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: 700;
     box-sizing: border-box;
 }
