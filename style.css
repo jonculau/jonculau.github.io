@@ -28,7 +28,7 @@ footer{
     text-align: center;
     bottom: 0px;
     width: 100%;
-    padding: 5px;
+    padding: 15px;
 }
 footer a{
     margin: 10px;
@@ -40,4 +40,73 @@ footer a i{
 
 footer a i:hover{
     color: #33666C;
+}
+.home{
+    height: 90%;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+    background-color: #0f1113;
+    text-align: center;
+    color: white;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    width: 100%;
+
+}
+
+.typewriter-text {
+    display: block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+    animation-timing-function: steps(50,end);
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    white-space: nowrap;
+    font-size: 50px;
+    font-weight: 700;
+    box-sizing: border-box;
+    padding: 0px;
+}
+p.typewriter-text {
+    display: block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+    animation-timing-function: steps(50,end);
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes typing-erase {
+    0% { width: 0 }
+    80% { width: 100% }
+    90%, 100% { width: 0 }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: gray }
 }

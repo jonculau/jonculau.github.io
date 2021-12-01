@@ -25,7 +25,7 @@
     <!---->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="nav-item nav-link navbar-brand" id="nav-brand" data-bs-target="#about-me" type="button" data-bs-toggle="tab"><img src="./assets/logo.svg" height="50px"></a>
+            <a class="nav-link active" id="nav-brand" data-bs-target="#home" type="button" data-bs-toggle="tab"><img src="./assets/logo.svg" height="50px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -34,13 +34,21 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" id="home-nav" data-bs-target="#about-me" type="button" data-bs-toggle="tab">Sobre mim</a>
+                        <a class="nav-link" id="about-nav" data-bs-target="#about-me" type="button" data-bs-toggle="tab">Sobre mim</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="materia-nav" data-bs-target="#materia" data-bs-toggle="tab" type="button">Matérias e Publicações</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="materia-nav" data-bs-target="#materiais" data-bs-toggle="tab" type="button">Materiais</a>
+                    <li class="dropdown open">
+                        <a class="nav-link dropdown-toggle" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                    Material
+                                </a>
+                        <div class="dropdown-menu" aria-labelledby="triggerId">
+                            <a class="dropdown-item" href="#">VBA</a>
+                            <a class="dropdown-item" href="#">R</a>
+                            <a class="dropdown-item" href="#">NodeJS</a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -48,7 +56,10 @@
     </nav>
     <!-- Tab panes -->
     <div class="tab-content">
-        <div id="about-me" class="tab-pane show active" role="tabpanel">
+        <div id="home" class="tab-pane show active">
+            <data-include path="./pages/home.html"></data-include>
+        </div>
+        <div id="about-me" class="tab-pane fade" role="tabpanel">
             <data-include path="./pages/about-me.html"></data-include>
         </div>
         <div id="materia" class="tab-pane fade" role="tabpanel" aria-labelledby="materia-nav">
