@@ -66,7 +66,7 @@ footer a i:hover{
     width: 100%;
     display: table;
     height: 90vh;
-    padding-top: 30vh;
+    padding-top: 25vh;
 }
 
 .typewriter-text {
@@ -81,7 +81,7 @@ footer a i:hover{
     animation-direction: normal;
     animation-fill-mode: both;
     white-space: nowrap;
-    font-size: 8vw;
+    font-size: 6vw;
     font-weight: 700;
     box-sizing: border-box;
     padding: 0px;
