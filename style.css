@@ -2,7 +2,6 @@
 
 body{
     min-width: 450px;
-    min-height: 100vh;
 }
 
 
@@ -65,7 +64,7 @@ footer a i:hover{
     color: white;
     width: 100%;
     display: table;
-    height: 90vh;
+    height: -webkit-fill-available; height: -moz-available; height: fill-available; height: 79vh;
     padding-top: 25vh;
 }
 
