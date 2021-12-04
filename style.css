@@ -1,7 +1,10 @@
 
 
-body{
+html,body{
     min-width: 450px;
+    min-height: 100vh;
+    margin: 0;
+    padding:0;
 }
 
 
@@ -35,14 +38,13 @@ h1{
     height: 100%;
 }
 
-body{
-    height: 100vh;
+#menu{
 }
 footer{
     text-align: center;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
-    padding: 15px;
+    padding: 0.5rem;
 }
 footer a{
     margin: 10px;
@@ -63,9 +65,9 @@ footer a i:hover{
     text-align: center;
     color: white;
     width: 100%;
+    height: calc(100vh - 132px);
+    padding-top: calc(50vh - 200px);
     display: table;
-    height: -webkit-fill-available; height: -moz-available; height: fill-available; height: 79vh;
-    padding-top: 25vh;
 }
 
 .typewriter-text {
