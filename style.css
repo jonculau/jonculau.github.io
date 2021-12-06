@@ -13,7 +13,9 @@ h1 {
   background-color: whitesmoke;
   border-bottom: 0.25px solid silver;
 }
-
+figure{
+  text-align: center;
+}
 .bg-2 {
   background-color: rgb(218, 218, 218);
   border-bottom: 0.25px solid silver;
