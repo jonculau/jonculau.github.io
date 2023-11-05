@@ -51,7 +51,6 @@
 
 <style scoped>
 section {
-  padding-inline: 50px;
   padding-block: calc(1.2*var(--nav-height));
 }
 
@@ -129,12 +128,24 @@ p {
   } 
 }
 
+
 .content {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 25px;
-  font-size: 1.2em;
   line-height: 1.5em;
+}
+@media screen and (max-width: 450px) {
+  .content{
+    font-size: 1em;
+    padding: 0 2em;
+  }  
+}
+@media screen and (min-width: 450px) {
+  .content{
+    font-size: 1.2em;
+    padding: 0 25px;
+  }  
+  
 }
 
 @keyframes blink-caret{
