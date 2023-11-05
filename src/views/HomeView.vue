@@ -37,9 +37,12 @@
     <section class="section" id="talk">
       <div class="content">
         <h1>I speak at events, lectures, and workshops.</h1>
-        <p>I have extensive experience with ISO/IEC 17025:2017, currently serve as the coordinator of LABELO/PUCRS legal metrology testing lab, one of the main Brazilian accredited laboratory, overseeing software verification, metrology and electromagnetic compatibility testing.</p>
+        <p>I have extensive experience with ISO/IEC 17025:2017, currently serve as the coordinator of LABELO/PUCRS legal metrology testing lab, one of the main Brazilian accredited compliance testing laboratory, overseeing software verification, metrology and electromagnetic compatibility testing.</p>
         <p>
-          I also have experience developing laboratory information management systems (LIMS), automating tests and design of embedded systems to automate ISO/IEC normative product testing procedures. I am proficient in C, C++, C#, Python, JavaScript, and TypeScript.
+          I also have experience developing laboratory information management systems (LIMS), automating tests and design of embedded systems to automate ISO/IEC normative compliance testing procedures. I am proficient in C, C++, C#, Matlab, Python, JavaScript, and TypeScript.
+        </p>
+        <p>
+          My master research focused on non-linear control systems, specifically on the design of a robust controller for a <a href="https://github.com/jonculau/sba-matlab">Stewart Platform</a>. I have experience with the design of control systems, embedded systems, and real-time systems.
         </p>
       </div>
     </section>
@@ -49,7 +52,7 @@
 <style scoped>
 section {
   padding-inline: 50px;
-  padding-top: calc(1.2*var(--nav-height));
+  padding-top: calc(1.5*var(--nav-height));
 }
 
 #talk{
@@ -75,6 +78,9 @@ section {
   background: radial-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../assets/presentation.jpg');
   background-size: cover;
 }
+#talk a{
+  color: var(--cp-color);
+}
 
 .introduction {
   padding-top: 125px;
@@ -92,7 +98,7 @@ section {
 
 .section {
   min-height: 100vh;
-  padding-block: 2em;
+  padding-bottom: 2em;
 }
 
 .section p+p {
