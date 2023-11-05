@@ -52,7 +52,7 @@
 <style scoped>
 section {
   padding-inline: 50px;
-  padding-top: calc(1.5*var(--nav-height));
+  padding-block: calc(1.2*var(--nav-height));
 }
 
 #talk{
@@ -98,7 +98,6 @@ section {
 
 .section {
   min-height: 100vh;
-  padding-bottom: 2em;
 }
 
 .section p+p {
