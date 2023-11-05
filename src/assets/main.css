@@ -1,0 +1,43 @@
+@import './base.css';
+
+.toggleButton{
+    background-color: #0000;
+    cursor: pointer;
+    color: var(--contrast-color);
+    border: none;
+}
+
+h1 {
+    margin-bottom: 1.2em;
+    line-height: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: var(--p-color);
+    padding-block: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.toggleButton:hover{
+    color: var(--q-color);
+}
+
+.icon {
+    mask-size: contain;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.i-linkedin{
+    mask-image: url(icons/linkedin.svg);
+    -webkit-mask-image: url(icons/linkedin.svg);
+}
+.i-github{
+    mask-image: url(icons/github.svg);
+    -webkit-mask-image: url(icons/github.svg);
+}

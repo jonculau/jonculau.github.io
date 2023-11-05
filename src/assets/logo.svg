@@ -1,0 +1,15 @@
+<svg width="511" height="557" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <rect id="svg_1" height="250" width="250" y="0" x="1" stroke="#000" fill="#0E353B"/>
+  <rect y="47" id="svg_2" height="250" width="250" x="261" stroke="#000" fill="#33666C"/>
+  <rect id="svg_3" height="250" width="250" y="259" x="0" stroke="#000" fill="#33666C"/>
+  <rect id="svg_4" height="250" width="250" y="307" x="261" stroke="#000" fill="#0E353B"/>
+  <path id="svg_5" d="m129,173" opacity="NaN" stroke="#000" fill="#0E353B"/>
+  <text xml:space="preserve" text-anchor="start" font-family="'Podkova'" font-size="219" stroke-width="0" id="svg_6" y="191" x="63.5" stroke="#000" fill="#ffffff">J</text>
+  <text xml:space="preserve" text-anchor="start" font-family="'Podkova'" font-size="219" stroke-width="0" id="svg_7" y="238" x="323.5" stroke="#000" fill="#ffffff">O</text>
+  <text xml:space="preserve" text-anchor="start" font-family="'Podkova'" font-size="219" stroke-width="0" id="svg_8" y="451" x="63.5" stroke="#000" fill="#ffffff">O</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="'Podkova'" font-size="219" stroke-width="0" id="svg_9" y="497" x="323.5" stroke="#000" fill="#ffffff">N</text>
+  <text xml:space="preserve" text-anchor="start" font-family="'Podkova'" font-size="43" id="svg_10" y="542" x="71.5" stroke-width="0" stroke="#000" fill="#ffffff">Culau</text>
+ </g>
+</svg>
