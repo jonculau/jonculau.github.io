@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HomeView from './views/HomeView.vue'
+import { RouterView } from 'vue-router'
 import navComponent from './components/navComponent.vue'
 import footerComponent from './components/footerComponent.vue'
 </script>
@@ -9,7 +9,7 @@ import footerComponent from './components/footerComponent.vue'
     <navComponent/>
   </header>
   <main>
-    <HomeView />
+    <RouterView />
   </main>
   <footer>
     <footerComponent/>
