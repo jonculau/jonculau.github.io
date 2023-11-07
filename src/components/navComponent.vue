@@ -33,10 +33,12 @@ const toggleButton = () => {
         </a>
         <a href="https://taggo.one/jonculau" @click="toggleButton()" target="_blank" rel="noopener noreferrer">
           <span class="material-icons">contact_phone</span> Contato</a>
+        <a href="https://github.com/jonculau">
+          <span class="icon i-github"></span> Github
+        </a>
         <a href="http://lattes.cnpq.br/2734637525366546">
           <span class="icon i-lattes"></span>Lattes
         </a>
-        
       </nav>
     </div>
   </header>
