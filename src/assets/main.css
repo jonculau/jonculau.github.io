@@ -31,6 +31,8 @@ h1 {
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
     -webkit-mask-repeat: no-repeat;
+    width: var(--size);
+    height: var(--size);
 }
 
 .i-linkedin{
@@ -40,4 +42,9 @@ h1 {
 .i-github{
     mask-image: url(icons/github.svg);
     -webkit-mask-image: url(icons/github.svg);
+}
+
+.i-lattes{
+    mask-image: url(./icons/lattes.png);
+    -webkit-mask-image: url(icons/lattes.png);
 }

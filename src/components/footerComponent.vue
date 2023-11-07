@@ -22,10 +22,8 @@
 .icon{
     background-color: var(--p-color);
 }
-.icon, .material-icons{
+.icon{
     --size: calc(var(--nav-height) - 15px);
-    width: var(--size);
-    height: var(--size);
 }
 a{
     text-decoration: none;
