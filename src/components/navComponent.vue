@@ -18,17 +18,25 @@ const toggleButton = () => {
     <div v-bind:class="className" @click="toggleButton()">
       <nav class="menu">
         <h1>Menu</h1>
-        <a href="#" @click="toggleButton()">
+        <a href="/#" @click="toggleButton()">
           <span class="material-icons">home</span> Home
         </a>
-        <a href="#about-me" @click="toggleButton()">
+        <a href="/#about-me" @click="toggleButton()">
           <span class="material-icons">description</span> About-me
         </a>
-        <a href="#talk" @click="toggleButton()">
+        <a href="/#talk" @click="toggleButton()">
           <span class="material-icons">record_voice_over</span> Talk at events
         </a>
-        <a href="https://taggo.one/jonculau" @click="toggleButton()">
+        <a href="https://www.linkedin.com/in/jonathan-culau/">
+          <span class="icon i-linkedin"></span>
+          Linkedin
+        </a>
+        <a href="https://taggo.one/jonculau" @click="toggleButton()" target="_blank" rel="noopener noreferrer">
           <span class="material-icons">contact_phone</span> Contato</a>
+        <a href="http://lattes.cnpq.br/2734637525366546">
+          <span class="icon i-lattes"></span>Lattes
+        </a>
+        
       </nav>
     </div>
   </header>
@@ -45,13 +53,13 @@ const toggleButton = () => {
   padding-left: 1em;
 }
 .menu-container.hide>.menu{
-    animation: menu-disappears 0.4s linear forwards;
+    animation: menu-disappears 0.2s linear forwards;
 }
 .menu-container.show>.menu{
     animation: menu-appears 0.2s linear forwards;
 }
 .menu-container.hide{
-    animation: menu-container-hide 1s linear forwards;
+    animation: menu-container-hide 0.2s linear forwards;
 }
 .menu-container.show,.menu-container.hide{
   display: flex;
@@ -60,21 +68,17 @@ const toggleButton = () => {
 
 @keyframes menu-appears{
   from{
-    opacity: 0;
     transform: translateX(-100%);
   }
   to{
-    opacity: 1;
     transform: translateX(0);
   }
 }
 @keyframes menu-disappears{
     from{
-        opacity: 1;
         transform: translateX(0);
     }
     to{
-        opacity: 0;
         transform: translateX(-100%);
     }
     
@@ -140,4 +144,11 @@ nav a {
   line-height: 2em;
 }
 
+.icon {
+  --size: 1.1em;
+  background-color: var(--p-color);
+}
+a:hover .icon{
+  background-color: var(--accent-color);
+}
 </style>
